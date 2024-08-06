@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Kanit, Ubuntu, sans-serif;
+    background-color: #fafafa;
+}
+.top{
+    margin: 0;
+    background-color: #fff;
+    border-bottom: 10px solid hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+img{
+    margin-right: 200px;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.top > .top1,.top > .top2,.top > .top3{
+    display: flex;
+    
+    width: 30%;
+    height: 70%;
+    margin: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.top2 ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    flex-direction: row;
+
+}
+li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin:  auto;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+
+.top3 ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 25px 0 0 0;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-top: -25px;
+}
+
+.top3 a{
+    margin-top: -5px;
+}
+
+.top3 ul i {
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+.top3 a, .to3 i{
+    padding: auto 30px;
+}
+
+
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+h1{
+   position: relative;
+   left: 200px;
+}
+
+.cs{
+    display: flex;
+    margin:  auto;
+    flex-direction: row;
+    
+    width: 80%;
+    height: 90%;
+}
+
+.left, .right{
+    
+    width: 50%;
+    height: 100%;
+    margin: 0 12px;
+   
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lt, .lb{
+    
+    width: 90%;
+    height: 50%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.insidet, .insideb{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    width: 90%;
+    height: 80%;
+    
+    margin: 50px 40px 40px 20px;
+}
+.insidet{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+    justify-content: space-around;
+    
+}
+.insidet i{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    overflow: hidden;
+    border-radius: 100%;
+    color: green;
+    font-size:10px;
+       
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.insidet img{
+    overflow: hidden;
+    margin-left: 20px;
+    width: 20%;
+    height: 50%;
+}
+
+.last1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 250px;
+    
+}
+
+
+.circle{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.circle select{
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 10%;
+    width: 90px;
+}
+
+.insideb{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+    justify-content: space-around;
+    
+    
+}
+.insideb i{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    overflow: hidden;
+    border-radius: 100%;
+    color: green;
+    font-size:10px;
+       
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.insideb img{
+    overflow: hidden;
+    margin-left: 20px;
+    width: 20%;
+    height: 50%;
+}
+
+.last2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 250px;
+}
+
+.circle2{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.circle2 select{
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 10%;
+    width: 90px;
+}
+
+
+
+.cs2{
+    border: 1px solid rgba(201, 201, 207, 0.255);
+    border-radius: 10px;
+    margin: 70px auto;
+    margin-left: -30px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.first h3{
+    font-weight: 1000;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.second .insidese{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.third{
+    position: relative;
+    height: 30%;
+    margin-top: -10px;
+}
+
+.third .insideth{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+    font-size: 50px;
+}
+
+.third i{
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    left: 60px;
+    justify-content: center;
+    top: 15px;
+    color: green;
+    
+}
+
+.third input{
+    width: 50%;
+    border-radius: 10%;
+    border: 1px solid rgba(247, 240, 240, 0.9);
+    padding: 10px;
+}
+
+.third button{
+    width: 20%;
+    color: rgb(44, 223, 44);
+    background-color: white;
+    border-radius: 10%;
+    border-color: rgb(44, 223, 44);
+    
+}
+
+.fourth div{
+    margin-top: -100px;
+    margin-left: 30px;
+    width: 90%;
+    
+}
+
+.fifth{
+    height: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    
+}
+
+.six{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    height: 20%;
+    width: 70%;
+
+    
+}
+
+.six button{
+    height: 50%;
+    width: 100%;
+    color: black;
+    background-color: #00dcb5;
+    border-radius: 8px;
+    border: none;
+    
+}
+
